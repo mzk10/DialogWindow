@@ -1,4 +1,16 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    userOrg = 'mzk10'
+    repoName = 'release'
+    groupId = 'com.meng.util'
+    artifactId = 'dialogwindow'
+    publishVersion = '1.0'
+    uploadName = 'dialogwindow'
+    desc = 'dialogwindow'
+    website = 'https://github.com/mzk10/dialogwindow'
+}
 
 android {
     compileSdkVersion 28
