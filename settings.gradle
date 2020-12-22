@@ -1,0 +1,3 @@
+include ':dialogwindow'
+//include ':app'
+rootProject.name = "DialogWindow"
