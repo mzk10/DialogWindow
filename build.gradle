@@ -10,6 +10,7 @@ buildscript {
         maven {
             url 'https://dl.bintray.com/novoda-oss/snapshots/'
         }
+        maven { url 'https://dl.bintray.com/mzk10/release' }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:3.5.0"
